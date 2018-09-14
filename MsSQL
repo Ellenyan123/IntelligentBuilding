@@ -1,0 +1,15 @@
+operation for columns
+
+  查看表：exec sp_help 表名
+
+  查看列： exec sp_columns 表名
+
+  查看列：select * from information_schema.columns where table_name = '表名' 
+
+  添加列：alter table 表名 add 列名 varchar(55)
+
+  删除列：alter table 表名 drop column 列名
+
+  修改列名称：exec sp_rename '表名.字段名' , '新名', 'column'
+
+  修改列类型：alter table 表名 alter column 列名 varchar(22)

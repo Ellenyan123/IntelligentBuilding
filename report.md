@@ -71,15 +71,22 @@ F. Oldewurtel and et al. Energy efficient building climate control using stochas
 </br>
 
 - 采用表格式的Q值方程，该类方法不适用于状态空间大的问题。
+
+
 （1）E. Barrett and S. Linder. Autonomous HVAC Control, A Reinforcement Learning Approach. Springer, 2015.
+</br>
 （2）B. Li and L. Xia. A multi-grid reinforcement learning method for energy conservation and comfort of HVAC in buildings. pages 444{449, 2015.
+</br>
 （3）D. Nikovski, J. Xu, and M. Nonaka. A method for computing optimal set-point schedules for HVAC systems. REHVA World Congress CLIMA, 2013.
+</br>
 
 - 采用神经拟合的增强学习方法，通过与室内人员的交互来决定最优的温度。该方法仅经过单区域建筑进行实验，其热转移过程由微分方程的简单形式建模。  
 P. Fazenda and et al. Using reinforcement learning to optimize occupant comfort and energy usage in hvac systems. Journal of Ambient Intelligence and Smart Environments, pages 675-690, 2014.
+</br>
 
 - 采用随机森林算法逼近动作值，用来进行简单的开/关决策
 G. T. Costanzo and et al. Experimental analysis of data-driven control for a building heating system. CoRR, abs/1507.03638, 2015.
+</br>
 
 - 采用深度增强学习，预测控制空调控制输出
 Tianshu Wei and et al. Deep Reinforcement Learning for Building HVAC Control

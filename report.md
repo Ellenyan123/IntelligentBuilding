@@ -66,7 +66,10 @@ Y. Ma and et al. Model predictive control for the operationof building cooling s
 
 - 双线性系统模型，同时加入空调控制以外的其他供需进行协同调度  
 T. Wei, Q. Zhu, and M. Maasoumy. Co-scheduling of HVAC control, EV charging and battery usage for building energy efficiency. ICCAD, 2014.  
+
 ![](./images/论文2.jpg)
+</br>
+
 本文基于天气参数、能源消耗构建建筑热动态模型。
 
 - 双线性系统模型（以系统状态和天气参数为输入），将控制优化建模为序列线性规划问题  
@@ -81,12 +84,15 @@ F. Oldewurtel and et al. Energy efficient building climate control using stochas
 
 （1）E. Barrett and S. Linder. Autonomous HVAC Control, A Reinforcement Learning Approach. Springer, 2015.
 </br>
+
 ![](./images/Q学习-论文1.jpg)
 </br>
+
 （2）B. Li and L. Xia. A multi-grid reinforcement learning method for energy conservation and comfort of HVAC in buildings. pages 444{449, 2015.
 </br>
 （3）D. Nikovski, J. Xu, and M. Nonaka. A method for computing optimal set-point schedules for HVAC systems. REHVA World Congress CLIMA, 2013.
 </br>
+
 ![](./images/Q学习论文3.jpg)
 </br>
 
@@ -146,6 +152,7 @@ Q-learning中存在一个Q-table，用来存储state和action对应的Q值，Q�
 </br>
 
 experience replay 的具体做法是经历一个state的时候把state、对应的action、reward存到一个固定长度buffer里面，后面在进行训练更新网络的时候，输入的数据就是从buffer里面随机选择的。 
+
 ![](./images/QlossFunction1.jpg)
 </br>
 
@@ -154,6 +161,7 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 </br>
 
 后来Nature的DQN为了解决收敛问题，提出使用一个延迟网络target network用来计算下一个状态可能获得的最大的Q值。 
+
 ![](./images/QlossFunction2.jpg)
 
 </br>
@@ -163,11 +171,13 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 ## 实验方法
 
 ###  算法流程
+
 ![](./images/算法流程.jpg)
 </br>
 
 ## 实验进程
 - **项目进程**
+
 ![](./images/项目进程.jpg)
 </br>
 
@@ -177,6 +187,7 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 - **室外预测**
     - 现状：已稳定运行
     - 算法对比
+    
     ![](./images/室外模型参数对比.jpg)
     </br>
         - ARIMA模型
@@ -240,9 +251,7 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 </br>
 \[4\]: 桑乃云.考虑舒适度的空调节能方法研究[J].节能,2018,37(10):40-43.
 </br>
-\[5\]: 
-</br>
-\[6\]: 
+
 
 
 

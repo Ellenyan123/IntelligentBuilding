@@ -55,15 +55,15 @@
 **缺陷**: 该类模型模型难以同时保证控制的准确性和运算的高效性。
 </br>
 
-- 冷却系统的非线性模型，包括：冷却器、冷凝塔和热存储器
-Y. Ma and et al. Model predictive control for the operationof building cooling systems. IEEE Transactions on ControlSystems Technology, 20(3):796{803, 2012.
+- 冷却系统的非线性模型，包括：冷却器、冷凝塔和热存储器  
+Y. Ma and et al. Model predictive control for the operationof building cooling systems. IEEE Transactions on ControlSystems Technology, 20(3):796{803, 2012.  
 本文是对校园的冷却系统负载进行预测，以调整冷却系统的输出参数适应负载变化，提升能源效率。
 
-- 双线性系统模型，同时加入空调控制以外的其他供需进行协同调度
-T. Wei, Q. Zhu, and M. Maasoumy. Co-scheduling of HVAC control, EV charging and battery usage for building energy eciency. ICCAD, 2014.
+- 双线性系统模型，同时加入空调控制以外的其他供需进行协同调度  
+T. Wei, Q. Zhu, and M. Maasoumy. Co-scheduling of HVAC control, EV charging and battery usage for building energy efficiency. ICCAD, 2014.  
 本文基于天气参数、能源消耗构建建筑热动态模型。
 
-- 双线性系统模型（以系统状态和天气参数为输入），将控制优化建模为序列线性规划问题
+- 双线性系统模型（以系统状态和天气参数为输入），将控制优化建模为序列线性规划问题  
 F. Oldewurtel and et al. Energy efficient building climate control using stochastic model predictive control and weather predictions. ACC, 2010.
 
 ### 2. 基于数据驱动的模型
@@ -84,12 +84,12 @@ F. Oldewurtel and et al. Energy efficient building climate control using stochas
 P. Fazenda and et al. Using reinforcement learning to optimize occupant comfort and energy usage in hvac systems. Journal of Ambient Intelligence and Smart Environments, pages 675-690, 2014.
 </br>
 
-- 采用随机森林算法逼近动作值，用来进行简单的开/关决策
+- 采用随机森林算法逼近动作值，用来进行简单的开/关决策  
 G. T. Costanzo and et al. Experimental analysis of data-driven control for a building heating system. CoRR, abs/1507.03638, 2015.
 </br>
 
-- 采用深度增强学习，预测控制空调控制输出
-Tianshu Wei and et al. Deep Reinforcement Learning for Building HVAC Control
+- 采用深度增强学习，预测控制空调控制输出  
+Tianshu Wei and et al. Deep Reinforcement Learning for Building HVAC Control  
 Conference: the 54th Annual Design Automation Conference 2017
 
 </br>

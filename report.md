@@ -145,7 +145,7 @@ t时序的reward（用Rt表示）是对MDP中单个状态 s_{t} 的评价；retu
 ### 3.Q-Value
 - Q-table
 Q-learning中存在一个Q-table，用来存储state和action对应的Q值，Q值反映的是环境的回报，Q-table会往回报高的方向进行更新。Q-table如下图：
-![](./images/Q-table.jpg)
+![](./images/Q-table.g)
 </br>
 
 当state、action维度增大时。Q-table的维度会变得特别的大，难以维护，查找的时间消耗也会变得特别的大。

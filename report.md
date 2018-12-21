@@ -58,11 +58,14 @@
 - 冷却系统的非线性模型，包括：冷却器、冷凝塔和热存储器  
 Y. Ma and et al. Model predictive control for the operationof building cooling systems. IEEE Transactions on ControlSystems Technology, 20(3):796{803, 2012.  
 ![](./images/论文1-1.jpg)
+</br>
 ![](./images/1-2.jpg)
+</br>
 本文是对校园的冷却系统负载进行预测，以调整冷却系统的输出参数适应负载变化，提升能源效率。
 
 - 双线性系统模型，同时加入空调控制以外的其他供需进行协同调度  
 T. Wei, Q. Zhu, and M. Maasoumy. Co-scheduling of HVAC control, EV charging and battery usage for building energy efficiency. ICCAD, 2014.  
+![](./images/论文2.jpg)
 本文基于天气参数、能源消耗构建建筑热动态模型。
 
 - 双线性系统模型（以系统状态和天气参数为输入），将控制优化建模为序列线性规划问题  
@@ -77,9 +80,13 @@ F. Oldewurtel and et al. Energy efficient building climate control using stochas
 
 （1）E. Barrett and S. Linder. Autonomous HVAC Control, A Reinforcement Learning Approach. Springer, 2015.
 </br>
+![](./images/Q学习-论文1.jpg)
+</br>
 （2）B. Li and L. Xia. A multi-grid reinforcement learning method for energy conservation and comfort of HVAC in buildings. pages 444{449, 2015.
 </br>
 （3）D. Nikovski, J. Xu, and M. Nonaka. A method for computing optimal set-point schedules for HVAC systems. REHVA World Congress CLIMA, 2013.
+</br>
+![](./images/Q学习论文3.jpg)
 </br>
 
 - 采用神经拟合的增强学习方法，通过与室内人员的交互来决定最优的温度。该方法仅经过单区域建筑进行实验，其热转移过程由微分方程的简单形式建模。  
@@ -118,11 +125,15 @@ t时序的reward（用Rt表示）是对MDP中单个状态 s_{t} 的评价；retu
 
 ### 2.Value of State（v(s)）
 - v(s)的定义
+![](./images/v(s)的定义.png)
+</br>
 - Bellman方程
+![](./images/bellman方程.png)
 
 ### 3.Q-Value
 - Q-table
 Q-learning中存在一个Q-table，用来存储state和action对应的Q值，Q值反映的是环境的回报，Q-table会往回报高的方向进行更新。Q-table如下图：
+![](./images/Q-table.jpg)
 </br>
 
 当state、action维度增大时。Q-table的维度会变得特别的大，难以维护，查找的时间消耗也会变得特别的大。
@@ -132,6 +143,7 @@ Q-learning中存在一个Q-table，用来存储state和action对应的Q值，Q�
 </br>
 
 experience replay 的具体做法是经历一个state的时候把state、对应的action、reward存到一个固定长度buffer里面，后面在进行训练更新网络的时候，输入的数据就是从buffer里面随机选择的。 
+![](./images/QlossFunction1.jpg)
 </br>
 
 DQN同时也存在一个问题，在于它的Loss。它的Loss是通过同一个网络产生Q-target和Q-eval的差作为Loss的，两者同时变，网络收敛比较困难。 
@@ -139,6 +151,7 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 </br>
 
 后来Nature的DQN为了解决收敛问题，提出使用一个延迟网络target network用来计算下一个状态可能获得的最大的Q值。 
+![](./images/QlossFunction2.jpg)
 
 </br>
 </br>
@@ -147,8 +160,13 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 ## 实验方法
 
 ###  算法流程
+![](./images/算法流程.jpg)
+</br>
 
 ## 实验进程
+- **项目进程**
+![](./images/项目进程.jpg)
+</br>
 
 - **数据交互**
     - 现状：采集设备、数据库、算法程序之间的交互已打通

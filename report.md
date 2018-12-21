@@ -59,6 +59,7 @@
 Y. Ma and et al. Model predictive control for the operationof building cooling systems. IEEE Transactions on ControlSystems Technology, 20(3):796{803, 2012.  
 ![](./images/论文1-1.jpg)
 </br>
+
 ![](./images/1-2.jpg)
 </br>
 本文是对校园的冷却系统负载进行预测，以调整冷却系统的输出参数适应负载变化，提升能源效率。

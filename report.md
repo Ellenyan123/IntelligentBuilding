@@ -127,8 +127,10 @@ t时序的reward（用Rt表示）是对MDP中单个状态 s_{t} 的评价；retu
 - v(s)的定义
 ![](./images/v(s)的定义.png)
 </br>
+
 - Bellman方程
 ![](./images/bellman方程.png)
+</br>
 
 ### 3.Q-Value
 - Q-table
@@ -174,6 +176,8 @@ r(t)是在状态s(t)下执行action获得的reward（和s(t)无关），所以�
 - **室外预测**
     - 现状：已稳定运行
     - 算法对比
+    ![](./images/室外模型参数对比.jpg)
+    </br>
         - ARIMA模型
         用ARIMA对室外温度序列进行自回归，选取滞后阶数为5
         - BPNN

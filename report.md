@@ -60,7 +60,7 @@
 - 双线性系统模型，同时加入空调控制以外的其他供需进行协同调度  
 T. Wei, Q. Zhu, and M. Maasoumy. Co-scheduling of HVAC control, EV charging and battery usage for building energy efficiency. ICCAD, 2014.  
 
-![](./images/论文2和31.jpg)
+![](./images/论文2和3-1.jpg)
 </br>
 
 本文基于天气参数、能源消耗构建建筑热动态模型。
@@ -70,6 +70,7 @@ F. Oldewurtel and et al. Energy efficient building climate control using stochas
 
 - 冷却系统的非线性模型，包括：冷却器、冷凝塔和热存储器  
 Y. Ma and et al. Model predictive control for the operationof building cooling systems. IEEE Transactions on ControlSystems Technology, 20(3):796{803, 2012.  
+
 ![](./images/论文1-1.jpg)
 </br>
 

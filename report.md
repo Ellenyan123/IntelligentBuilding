@@ -58,7 +58,7 @@
 - 冷却系统的非线性模型，包括：冷却器、冷凝塔和热存储器  
 Y. Ma and et al. Model predictive control for the operationof building cooling systems. IEEE Transactions on ControlSystems Technology, 20(3):796{803, 2012.  
 ![](./images/论文1-1.jpg)
-![](./images/论文1-2.jpg)
+![](./images/1-2.jpg)
 本文是对校园的冷却系统负载进行预测，以调整冷却系统的输出参数适应负载变化，提升能源效率。
 
 - 双线性系统模型，同时加入空调控制以外的其他供需进行协同调度  
